@@ -7,4 +7,5 @@ FROM Customer
 GROUP BY Customer.CustomerID,
   Customer.FirstName,
   Customer.LastName
-ORDER BY NUM_ORDERS DESC
+ORDER BY NUM_ORDERS DESC;
+-- the join clause is the one making the duplicates happen
